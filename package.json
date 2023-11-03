@@ -1,0 +1,22 @@
+{
+  "name": "festivalmusica_lincoln",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS, CSS, HTML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea",
+    "css": "gulp css"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Lincoln Eulogio Huanca",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.8"
+  }
+}
